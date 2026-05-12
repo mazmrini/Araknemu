@@ -297,7 +297,7 @@
                                 <annotationProcessor>org.checkerframework.checker.index.IndexChecker</annotationProcessor>
                             </annotationProcessors>
                             <compilerArgs combine.children="append">
-<!--                                <arg>-Awarns</arg>-->
+                                <arg>-Awarns</arg>
                                 <arg>-AskipDefs=(Test|BaseCase|DataSet|TestCase|PacketWithParser|OtherPacket|DummyGenerator|Accessors)$</arg>
                                 <arg>-J--add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED</arg>
                                 <arg>-J--add-exports=jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED</arg>
